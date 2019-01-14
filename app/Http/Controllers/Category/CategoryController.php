@@ -48,7 +48,6 @@ class CategoryController extends ApiController
      */
     public function show(Category $category)
     {
-
         return $this->showOne($category);
     }
 
@@ -61,7 +60,17 @@ class CategoryController extends ApiController
      */
     public function update(Request $request, Category $category)
     {
-        //
+        $category->fill($request->only(
+            'name',
+            'description'
+        ));
+
+        if($category->isClean()){
+            return $this->errorResponse('Please specify altered values in order to update.', 422);
+        }
+        $category->save();
+
+        return $this->showOne($category);
     }
 
     /**
@@ -72,6 +81,7 @@ class CategoryController extends ApiController
      */
     public function destroy(Category $category)
     {
-        //
+        $category->delete();
+        return $this->showOne($category);
     }
 }
