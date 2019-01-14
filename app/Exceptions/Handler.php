@@ -11,6 +11,7 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 
 
 class Handler extends ExceptionHandler
@@ -82,6 +83,11 @@ class Handler extends ExceptionHandler
 
         if($exception instanceOf MethodNotAllowedHttpException){
             return $this->errorResponse('The specified method for the request is invalid.', 405);
+        }
+
+
+        if($exception instanceOf HttpException){
+            return $this->errorResponse($exception->getMessage(), $exception->getStatusCode());
         }
 
         return parent::render($request, $exception);
