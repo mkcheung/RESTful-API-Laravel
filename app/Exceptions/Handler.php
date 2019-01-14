@@ -7,6 +7,8 @@ use App\Traits\ApiResponder;
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+
 
 class Handler extends ExceptionHandler
 {
@@ -54,6 +56,12 @@ class Handler extends ExceptionHandler
         if($exception instanceOf ValidationException){
             return $this->convertValidationExceptionToResponse($exception, $request);
         }
+
+        if($exception instanceOf ModelNotFoundException){
+            $modelName = strtolower(class_basename($exception->getModel()));
+            return $this->errorResponse("No {$modelName} instance exists with the specified model id.", 404);
+        }
+
         return parent::render($request, $exception);
     }
 
