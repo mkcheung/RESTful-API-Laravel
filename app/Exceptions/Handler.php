@@ -9,6 +9,7 @@ use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Database\QueryException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
@@ -70,24 +71,29 @@ class Handler extends ExceptionHandler
             return $this->unauthenticated($request, $exception);
         }
 
-
         if($exception instanceOf AuthorizationException){
             return $this->errorResponse($exception->getMessage(), 403);
         }
-
 
         if($exception instanceOf NotFoundHttpException){
             return $this->errorResponse('The specified URL could not be found', 404);
         }
 
-
         if($exception instanceOf MethodNotAllowedHttpException){
             return $this->errorResponse('The specified method for the request is invalid.', 405);
         }
 
-
         if($exception instanceOf HttpException){
             return $this->errorResponse($exception->getMessage(), $exception->getStatusCode());
+        }
+
+        if($exception instanceOf QueryException){
+            $errorCode = $exception->errorInfo[1];
+
+            if($errorCode == 1451){
+
+                return $this->errorResponse('Cannot remove this resource permanently as it is related to another resource.', 409);
+            }
         }
 
         return parent::render($request, $exception);
