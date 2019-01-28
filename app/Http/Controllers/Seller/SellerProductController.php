@@ -8,6 +8,7 @@ use App\User;
 use Http\Client\Exception\HttpException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
+use Illuminate\Support\Facades\Storage;
 
 class SellerProductController extends ApiController
 {
@@ -85,6 +86,12 @@ class SellerProductController extends ApiController
             }
         }
 
+        if($request->hasFile('image')){
+            Storage::delete($product->image);
+
+            $product->image = $request->image->store('');
+        }
+
         if($product->isClean()){
             return $this->errorResponse('You need to specify a value to update.', 422);
         }
@@ -110,6 +117,7 @@ class SellerProductController extends ApiController
         $this->checkSeller($seller, $product);
 
         $product->delete();
+        Storage::delete($product->image);
 
         return $this->showOne($product);
     }
