@@ -40,7 +40,7 @@ class ProductBuyerTransactionController extends ApiController
         if(!$product->isAvailable()){
             return $this->errorResponse('The product is not available', 409);
         }
-        
+
         if ($product->quantity < $request->quantity) {
             return $this->errorResponse('The product does not have enough units for this transaction', 409);
         }
