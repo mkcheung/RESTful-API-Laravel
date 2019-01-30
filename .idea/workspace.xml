@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c477bb71-779e-4341-8eb0-4e42434853c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,21 +31,41 @@
           <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/services.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProductBuyerTransactionController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductBuyerTransactionController.php">
+          <file leaf-file-name="UserMailChanged.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Mail/UserMailChanged.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                <state relative-caret-position="525">
+                  <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                   <folding>
-                    <element signature="e#48#64#0#PHP" expanded="true" />
+                    <element signature="e#28#41#0#PHP" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="laravel-2019-01-30.log" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-01-30.log">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-263">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/views/emails/welcome.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="46" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -64,7 +86,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/api.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
@@ -99,33 +121,11 @@
           <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+                <state relative-caret-position="435">
+                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                   <folding>
                     <element signature="e#33#58#0#PHP" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserFactory.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-                  <folding>
-                    <element signature="e#7#36#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -166,8 +166,10 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Mail/UserCreated.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Mail/UserMailChanged.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -181,8 +183,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2067" />
-    <option name="y" value="23" />
+    <option name="x" value="2023" />
+    <option name="y" value="44" />
     <option name="width" value="1891" />
     <option name="height" value="949" />
   </component>
@@ -223,7 +225,79 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTfulAPI" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,7 +375,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="AppService&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Providers/AppServiceProvider.php&#10;UserCon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;apires&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;DatabaseSee&#9;null&#9;null&#10;User.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/User.php&#10;Usercon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;api.&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;web&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php&#10;ApiRespo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;.env&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.env&#10;services.p&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/services.php&#10;mail.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/mail.php&#10;.gitign&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.gitignore&#10;AppServ&#9;null&#9;null&#10;Seller&#9;null&#9;null&#10;SellerBuyer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;Product.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Product.php&#10;transact&#9;null&#9;null&#10;product&#9;null&#9;null&#10;Category&#9;null&#9;null&#10;CategorySell&#9;null&#9;null&#10;Buyer&#9;null&#9;null&#10;UserCo&#9;null&#9;null&#10;CategoryPro&#9;null&#9;null&#10;web.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="UserMailChanged&#9;null&#9;null&#10;AppService&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Providers/AppServiceProvider.php&#10;UserCon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;apires&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;DatabaseSee&#9;null&#9;null&#10;User.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/User.php&#10;Usercon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;api.&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;web&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php&#10;ApiRespo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;.env&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.env&#10;services.p&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/services.php&#10;mail.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/mail.php&#10;.gitign&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.gitignore&#10;AppServ&#9;null&#9;null&#10;Seller&#9;null&#9;null&#10;SellerBuyer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;Product.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Product.php&#10;transact&#9;null&#9;null&#10;product&#9;null&#9;null&#10;Category&#9;null&#9;null&#10;CategorySell&#9;null&#9;null&#10;Buyer&#9;null&#9;null&#10;UserCo&#9;null&#9;null&#10;CategoryPro&#9;null&#9;null&#10;web.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -396,18 +470,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548623483236</updated>
-      <workItem from="1548623484574" duration="20068000" />
+      <workItem from="1548623484574" duration="21588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20068000" />
+    <option name="totallyTimeSpent" value="21588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2067" y="23" width="1891" height="949" extended-state="0" />
+    <frame x="2023" y="44" width="1891" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089899525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15335801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -638,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductBuyerTransactionController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -653,14 +719,6 @@
           <folding>
             <element signature="e#48#64#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/UserCreated.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -714,21 +764,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-01-30.log">
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <element signature="e#33#58#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,10 +790,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/confirm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/UserMailChanged.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#28#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-01-30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
