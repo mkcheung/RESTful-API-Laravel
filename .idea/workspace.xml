@@ -57,8 +57,8 @@
           <file leaf-file-name="ApiResponder.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponder.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+                <state relative-caret-position="542">
+                  <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
                   <folding>
                     <element signature="e#30#51#0#PHP" expanded="true" />
                   </folding>
@@ -179,8 +179,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2114" />
-    <option name="y" value="43" />
+    <option name="x" value="2017" />
+    <option name="y" value="127" />
     <option name="width" value="1891" />
     <option name="height" value="970" />
   </component>
@@ -538,15 +538,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548623483236</updated>
-      <workItem from="1548623484574" duration="31257000" />
+      <workItem from="1548623484574" duration="31611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31257000" />
+    <option name="totallyTimeSpent" value="31611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2114" y="43" width="1891" height="970" extended-state="0" />
+    <frame x="2017" y="127" width="1891" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15335801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1008,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="542">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding>
             <element signature="e#30#51#0#PHP" expanded="true" />
           </folding>
