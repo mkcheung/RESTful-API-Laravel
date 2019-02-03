@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c477bb71-779e-4341-8eb0-4e42434853c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/ApiResponder.php" afterPath="$PROJECT_DIR$/app/Traits/ApiResponder.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,11 +54,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ApiResponder.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ApiResponder.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponder.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="53">
-                  <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+                <state relative-caret-position="256">
+                  <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
                   <folding>
                     <element signature="e#30#51#0#PHP" expanded="true" />
                   </folding>
@@ -94,7 +90,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BuyerTransformer.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BuyerTransformer.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="465">
@@ -164,12 +160,12 @@
         <option value="$PROJECT_DIR$/app/Seller.php" />
         <option value="$PROJECT_DIR$/app/Buyer.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
-        <option value="$PROJECT_DIR$/app/Traits/ApiResponder.php" />
         <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
         <option value="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" />
         <option value="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" />
         <option value="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" />
         <option value="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ApiResponder.php" />
       </list>
     </option>
   </component>
@@ -542,12 +538,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548623483236</updated>
-      <workItem from="1548623484574" duration="30923000" />
+      <workItem from="1548623484574" duration="31257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30923000" />
+    <option name="totallyTimeSpent" value="31257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2114" y="43" width="1891" height="970" extended-state="0" />
@@ -950,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#30#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Transformers/TransactionTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1000,6 +986,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#36#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Transformers/CategoryTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1010,12 +1006,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
+    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="256">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
-            <element signature="e#36#50#0#PHP" expanded="true" />
+            <element signature="e#30#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
