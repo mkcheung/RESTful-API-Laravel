@@ -44,12 +44,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/app.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="167" column="53" lean-forward="false" selection-start-line="167" selection-start-column="53" selection-end-line="167" selection-end-column="53" />
+                <state relative-caret-position="98">
+                  <caret line="142" column="38" lean-forward="false" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BuyerTransformer.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="24" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#36#50#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -90,13 +102,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserTransformer.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+          <file leaf-file-name="CategoryTransformer.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Transformers/CategoryTransformer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="88" lean-forward="false" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
                   <folding>
-                    <element signature="e#36#49#0#PHP" expanded="true" />
+                    <element signature="e#36#53#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -146,6 +158,9 @@
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" />
       </list>
     </option>
   </component>
@@ -159,8 +174,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2102" />
-    <option name="y" value="122" />
+    <option name="x" value="1951" />
+    <option name="y" value="50" />
     <option name="width" value="1891" />
     <option name="height" value="970" />
   </component>
@@ -423,7 +438,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="UserTr&#9;null&#9;null&#10;Kern&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.env&#10;UserMail&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Mail/UserMailChanged.php&#10;UserCreat&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Mail/UserCreated.php&#10;app.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/app.php&#10;confirm&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/resources/views/emails/confirm.blade.php&#10;UserCo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;UserMailChanged&#9;null&#9;null&#10;AppService&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Providers/AppServiceProvider.php&#10;UserCon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;apires&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;DatabaseSee&#9;null&#9;null&#10;User.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/User.php&#10;Usercon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;api.&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;web&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php&#10;ApiRespo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;services.p&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/services.php&#10;mail.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/mail.php&#10;.gitign&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.gitignore&#10;AppServ&#9;null&#9;null&#10;Seller&#9;null&#9;null&#10;SellerBuyer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;Product.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Product.php&#10;transact&#9;null&#9;null&#10;product&#9;null&#9;null&#10;Category&#9;null&#9;null&#10;CategorySell&#9;null&#9;null&#10;Buyer&#9;null&#9;null&#10;CategoryPro&#9;null&#9;null&#10;web.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="Transfo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Transformers/BuyerTransformer.php&#10;CategoryTran&#9;null&#9;null&#10;SellerTransf&#9;null&#9;null&#10;Buyertr&#9;null&#9;null&#10;UserTr&#9;null&#9;null&#10;Kern&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.env&#10;UserMail&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Mail/UserMailChanged.php&#10;UserCreat&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Mail/UserCreated.php&#10;app.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/app.php&#10;confirm&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/resources/views/emails/confirm.blade.php&#10;UserCo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;UserMailChanged&#9;null&#9;null&#10;AppService&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Providers/AppServiceProvider.php&#10;UserCon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;apires&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;DatabaseSee&#9;null&#9;null&#10;User.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/User.php&#10;Usercon&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Http/Controllers/User/UserController.php&#10;api.&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;web&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php&#10;ApiRespo&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Traits/ApiResponder.php&#10;services.p&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/services.php&#10;mail.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/config/mail.php&#10;.gitign&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/.gitignore&#10;AppServ&#9;null&#9;null&#10;Seller&#9;null&#9;null&#10;SellerBuyer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/api.php&#10;Product.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/app/Product.php&#10;transact&#9;null&#9;null&#10;product&#9;null&#9;null&#10;Category&#9;null&#9;null&#10;CategorySell&#9;null&#9;null&#10;Buyer&#9;null&#9;null&#10;CategoryPro&#9;null&#9;null&#10;web.php&#9;FILE&#9;file:///Users/marscheung/SideProjects/RESTfulAPI/routes/web.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -518,15 +533,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548623483236</updated>
-      <workItem from="1548623484574" duration="26712000" />
+      <workItem from="1548623484574" duration="27164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26712000" />
+    <option name="totallyTimeSpent" value="27164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2102" y="122" width="1891" height="970" extended-state="0" />
+    <frame x="1951" y="50" width="1891" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15335801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -908,11 +923,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/app/Transformers/SellerTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="167" column="53" lean-forward="false" selection-start-line="167" selection-start-column="53" selection-end-line="167" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#36#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -924,12 +951,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="88" lean-forward="false" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+        <state relative-caret-position="98">
+          <caret line="142" column="38" lean-forward="false" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="24" selection-end-column="14" />
           <folding>
-            <element signature="e#36#49#0#PHP" expanded="true" />
+            <element signature="e#36#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/CategoryTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="e#36#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
